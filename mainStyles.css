@@ -1,0 +1,72 @@
+body section, body section div#mainPhoto, body section div#textBlock hr {
+  margin-left: auto;
+  margin-right: auto; }
+
+body {
+  background-color: #fcedbe; }
+  body header {
+    background-color: #2f140b;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: -2%; }
+    body header h1 {
+      font-size: 3em;
+      color: #fbf5e7;
+      padding: 2%; }
+  body section {
+    width: 80%; }
+    body section nav {
+      margin-top: -1%;
+      text-align: center; }
+      body section nav menu {
+        list-style: none; }
+        body section nav menu li {
+          display: inline-block;
+          padding: 0 2%; }
+          body section nav menu li a {
+            color: #2f140b;
+            font-size: 1.5em;
+            text-decoration: none; }
+            body section nav menu li a:hover {
+              color: #dfa223;
+              text-decoration: underline; }
+    body section div#mainPhoto {
+      width: 80%;
+      height: auto; }
+      body section div#mainPhoto img {
+        width: 100%;
+        height: 100%; }
+    body section div#textBlock {
+      text-align: justify; }
+      body section div#textBlock h2 {
+        text-align: center; }
+      body section div#textBlock hr {
+        border: none;
+        background-color: #2f140b;
+        color: #2f140b;
+        height: 2px;
+        width: 40%; }
+      body section div#textBlock p {
+        font-size: 1.2em; }
+  body footer {
+    background-color: #dc9d4e;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 3.5%; }
+    body footer hr {
+      border: none;
+      background-color: #2f140b;
+      color: #2f140b;
+      height: 2px;
+      width: 100%; }
+    body footer a {
+      color: #2f140b;
+      display: inline-block;
+      font-size: 1.5em;
+      padding: 2%; }
+      body footer a:hover {
+        color: #fcedbe; }
+
+/*# sourceMappingURL=mainStyles.css.map */
